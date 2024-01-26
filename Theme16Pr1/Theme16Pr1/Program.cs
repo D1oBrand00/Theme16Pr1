@@ -40,11 +40,7 @@ namespace Theme16Pr1
             //or
             //datetime2 = DateTime.Now.AddYears(-year);
             //Console.WriteLine(datetime2.ToString("Ваш возраст - yy лет"));
-            Console.Write("Введите дату своего рождения");
-            DateTime datetime3;
-            datetime3 = DateTime.Parse(Console.ReadLine());
-            Console.WriteLine($"Ваш возраст - {datetime3.AddYears(-year).AddMonths(-month):yy} лет");
-
+            
             Console.ReadKey();
 
 
